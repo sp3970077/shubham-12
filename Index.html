@@ -1,105 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Learning Landing Page</title>
-    <link rel="stylesheet" href="./Style.css">
-    <link rel="stylesheet" href="https://www.google.com/search?q=jai+maa+saraswati+coaching+classes+morena&rlz=1C1CHBD_enIN1095IN1096&oq=&gs_lcrp=EgZjaHJvbWUqCQgDECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyDwgFEC4YJxjHARjqAhjRAzIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkyMDc2OGowajeoAgiwAgE&sourceid=chrome&ie=UTF-8" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image gallery Website </title>
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <section>
-        <div class="bg">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <main>
-            <nav>
-                <div class="logoBx">
-                    <img src="./image/l1.jpg" alt="logo">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Timing</a>
-                        </li>
-                        <li>
-                            <a href="#">Cources</a>
-                        </li>
-                    </ul>
-                    <div class="searchBx">
-                        <input type="text" placeholder="Search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                </div>
-            </nav>
-            <div class="content">
-                <div class="text">
-                    <h5>lets</h5>
-                    <h2>E-learning<br><span> At your Work House </span></h2>
-                    <p> <h3> Creator By. Er. Shubham Parashar </h3><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quasi corrupti! Voluptatum sequi, eum similique dignissimos esse asperiores ipsum quo eligendi pariatur minus maiores adipisci nisi aperiam laudantium officia reiciendis sunt beatae quisquam quam nesciunt. Dolorem natus libero illum animi maiores excepturi labore suscipit nisi vel, qui atque alias voluptas explicabo quo vitae nobis asperiores dignissimos accusamus sit repellat. Quo tenetur iusto, est eos hic ex nemo quam ab neque accusamus! Maxime magni iure magnam sit, sed praesentium, cumque, atque </p>
-                    <div class="btnBx">
-                        <button>Apply now</button>
-                        <button>Read More</button>
-                    </div>
-                    <div class="iconBx">
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                    </div>
-                </div>
-                <div class="imgBx">
-                    <div class="img">
-                        <img src="./image/l2.jpg" alt="img">
-                    </div>
-                    <div class="rec">
-                        <span style="--clr:#60d890; --widHei:15px"></span>
-                        <span style="--clr:#fb0707; --widHei:10px"></span>
-                        <span style="--clr:#8f94ef; --widHei:10px"></span>
-                        <span style="--clr:#fb1316; --widHei:10px"></span>
-                    </div>
-                    <div class="chatBx">
-                        <a href="#"><i class="fa-regular fa-comment-dots"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="triangle">
-                <span>
-                    <svg width="250" height="250" viewBox="-50 -50 300 300">
-                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
-                    </svg>
-                </span>
-                <span>
-                    <svg width="250" height="250" viewBox="-50 -50 300 300">
-                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
-                    </svg>
-                </span>
-                <span>
-                    <svg width="250" height="250" viewBox="-50 -50 300 300">
-                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
-                    </svg>
-                </span>
-                <span>
-                    <svg width="250" height="250" viewBox="-50 -50 300 300">
-                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
-                    </svg>
-                </span>
-                <span>
-                    <svg width="250" height="250" viewBox="-50 -50 300 300">
-                        <polygon class="triangle" stroke-linejoin="round" points="100,0 0,200 200,200" />
-                    </svg>
-                </span>
-            </div>
-        </main>
-    </section>
+  <section><ul>
+    <li class="list active" data-filter="All">All</li>
+    <li class="list" data-filter="Mobile">Mobile</li>
+    <li class="list" data-filter="Camera">Camera</li>
+    <li class="list" data-filter="Watch">Watch</li>
+    <li class="list" data-filter="Shoes">Shoes</li>
+    <li class="list" data-filter="Headphone">Headphone</li>
+    </ul>
+  
+    <div class="product">
+      <div class="itemBox" data-item="Shoes"><img src="image/s.jpeg"></div>
+      <div class="itemBox" data-item="Headphone"><img src="image/h5.jpeg"></div>
+      <div class="itemBox" data-item="Mobile"><img src="image/d5.webp"></div>
+      <div class="itemBox" data-item="Watch"><img src="image/w2.jpeg"></div>
+      <div class="itemBox" data-item="Camera"><img src="image/d1.jpg"></div>
+      
+    </div>
+    <div class="product"></div>
+      <div class="itemBox" data-item="Shoes"><img src="image/d.webp" ></div>
+      <div class="itemBox" data-item="Headphone"><img src="image/d1.jpg"></div>
+      <div class="itemBox" data-item="Mobile"><img src="image/d3.webp"></div>
+      <div class="itemBox" data-item="Watch"><img src="image/d4.jpeg"></div>
+      <div class="itemBox" data-item="Camera"><img src="image/d5.webp"></div>
+      
+    </div>
+    <div class="product"></div>
+      <div class="itemBox" data-item="Shoes"><img src="image/e1.jpeg.jpeg"></div>
+      <div class="itemBox" data-item="Headphone"><img src="image/H1.jpeg"></div>
+      <div class="itemBox" data-item="Mobile"><img src="image/H2.jpeg"></div>
+      <div class="itemBox" data-item="Watch"><img src="image/h2.webp.jpeg"></div>
+      <div class="itemBox" data-item="Camera"><img src="image/w2.jpeg"></div>
+      
+    </div>
+    <div class="product"></div>
+      <div class="itemBox" data-item="Shoes"><img src="image/w3.jpg"></div>
+      <div class="itemBox" data-item="Headphone"><img src="image/w1.png"></div>
+      <div class="itemBox" data-item="Mobile"><img src="image/w1.jpeg"></div>
+      <div class="itemBox" data-item="Watch"><img src="image/t1.jpeg"></div>
+      <div class="itemBox" data-item="Camera"><img src="image/s3.jpg"></div>
+      
+    </div>
+  </section>
+  <script>
+    let list = document.querySelectorAll('.list');
+    let itemBox = document.querySelectorAll('.itemBox');
+    for(let i = 0; i<list.length; i++){
+      list[i] .addEventListener('click',function(){
+        for(let j =0; j<list.length; j++){
+          list[j] .classlist.remove('active');
+        }
+        this.classlist.add('active');
+        let data-filter = this. getAttribute('data-filter');
+        for(let k= 0; k<itemBox.length; k++){
+          itemBox[k].classlist.remove('active');
+          itemBox[k].classlist.add('hide');
+          if(itemBox[k] .getAttribute('data-item')== dataFilter||
+        dataFilter == "all"){
+          itemBox[k].classlist.remove('hide');
+          itemBox[k].classlist.add('active');
+        }
+  
+        }
+      })
+    }
+  </script>
+  
 </body>
 </html>
